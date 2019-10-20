@@ -1,0 +1,13 @@
+FROM python:3
+
+RUN mkdir /bsap
+ADD bsap/ /bsap
+
+# The emulator runs on port 1235 which redirects to host port 1121.
+EXPOSE 1235/udp 1121/udp
+EXPOSE 1235/tcp 1121/tcp
+
+RUN pip install -r /bsap/requirements.txt
+
+#CMD python /bsap/bsapmodule.py --address 1
+CMD [ "bash" ]

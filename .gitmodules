@@ -1,0 +1,3 @@
+[submodule "zeek"]
+	path = zeek
+	url = https://github.com/zeek/zeek

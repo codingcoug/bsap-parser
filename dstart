@@ -1,0 +1,21 @@
+
+# build the images (view with 'docker images')
+docker build -t emus -f Dockerfile-slave .
+docker build -t emum -f Dockerfile-master .
+
+# remove old containers if any
+docker rm -f emus emum
+
+# run and attach to the images for the first time as containers (view running containers with 'docker ps'
+docker run -itd --name emus emus
+docker run -itd --name emum emum
+
+# start the containers (after this, you can execute individual commands with `docker exec [container name] [command]
+docker start emus && echo 'Success: Emus conatainer started'
+docker start emum && echo 'Success: Emum conatainer started'
+
+
+# run these commands in different terminals once each container is started
+#docker exec -it emum python bsap/bsapmodule.py --address 0 -v
+#docker exec -it emus python bsap/bsapmodule.py --address 1 -v
+

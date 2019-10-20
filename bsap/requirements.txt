@@ -1,0 +1,2 @@
+PyCRC==1.21
+tabulate==0.8.2

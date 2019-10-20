@@ -1,0 +1,91 @@
+
+0.7 | 2017-05-26 08:28:56 -0500
+
+  * Release 0.7.
+
+0.6 | 2016-10-27 14:44:50 -0700
+
+  * Release 0.6.
+
+0.5 | 2016-08-12 13:16:46 -0700
+
+  * Release 0.5.
+
+  * Change broker version check so that it only accepts version 0.14.X. (Johanna Amann)
+
+0.4-31 | 2016-08-05 15:39:07 -0700
+
+  * Respect -DINSTALL_LIB_DIR in multilib environments. Addresses
+    BIT-1555. (M.B., Matthias Vallentin).
+
+  * Fix compile and testing issues with Python 3. Addresses BIT-1554.
+    (Matthias Vallentin)
+
+0.4-24 | 2016-03-11 15:35:55 -0800
+
+  * Fix broken link to manual (Matthias Vallentin)
+
+0.4-23 | 2016-03-11 10:28:41 -0800
+
+  * Show more details in build summary (Matthias Vallentin)
+
+  * Deprecate --with-libcaf in favor of --with-caf (Matthias Vallentin)
+
+  * Add README.rst symlink (Johanna Amann)
+
+  * Fix warning about potentially signed literal. (Matthias Vallentin)
+
+0.4-14 | 2015-11-11 09:19:15 -0600
+
+  * Another fix for a unit test's vector-in-vector confusion.
+    (Jon Siwek)
+
+0.4-13 | 2015-11-10 13:20:01 -0800
+
+  * Add checks for SSE2 intrinsic availability. (Jon Siwek)
+
+  * Fix unit test ambiguity: vector copy/move ctor vs list
+    initialization. (Jon Siwek)
+
+0.4-9 | 2015-09-29 09:45:08 -0700
+
+  * Add configure option to not build python bindings. (Daniel Thayer)
+
+  * Fixed the configure summary output to always show true or false
+    for the python bindings. (Daniel Thayer)
+
+0.4-5 | 2015-08-20 14:11:30 -0700
+
+  * Fix bug that prevented peers from being disconnected. (Mathias
+    Fischer)
+
+0.4-2 | 2015-07-14 21:52:47 -0700
+
+  * Require CAF 0.14. (Matthias Vallentin)
+
+  * Remove use of deprecated sb_actor. (Matthias Vallentin)
+
+  * Minor compile fixes on Mac OSX. (Matthias Vallentin)
+
+0.4-1 | 2015-06-11 12:12:12 -0500
+
+  * Fix data store clone (re)synchronization bugs. (Jon Siwek)
+
+0.4 | 2015-05-20 12:58:23 -0500
+
+  * Release 0.4.
+
+0.3-1 | 2015-05-20 12:55:33 -0500
+
+  * pybroker: change record's fields() method to return by value
+    (Jon Siwek)
+
+0.3 | 2015-05-07 20:28:31 -0700
+
+  * Release 0.3.
+
+  * Include dist target in Makefile (Johanna Amann)
+
+0.2 | 2015-04-24 09:57:28 -0500
+
+  * Start version/change tracking like other Bro repos. (Jon Siwek)

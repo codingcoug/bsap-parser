@@ -1,0 +1,10 @@
+module BSAP;
+
+type NodeStatus: record;
+type DataHeader: record;
+#type Expanded: record;
+type FunctionHeader: record;
+type GlobalHeader: record;
+type Header: record;
+
+module GLOBAL;

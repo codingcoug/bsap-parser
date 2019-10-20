@@ -1,0 +1,8 @@
+bro-port = 47760
+broversion = "2.5-134"
+configchksum = "bc795370a53003192f07e7ea6a3d4993"
+confignodechksum = "754db8253db4ebd1262762895fefd5ca"
+cronenabled = true
+global-hash-seed = "17c8c4ee"
+hash-broctlcfg = "091f5a10bef7524326280e5293d6cbbf"
+hash-nodecfg = "3091f532e7c0e58879c1fc637f40d8e1"
